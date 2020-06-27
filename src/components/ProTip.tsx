@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-export default function ProTip() {
+function ProTip() {
   const classes = useStyles();
   return (
     <Typography className={classes.root} color="textSecondary">
@@ -37,3 +37,5 @@ export default function ProTip() {
     </Typography>
   );
 }
+
+export default ProTip;
