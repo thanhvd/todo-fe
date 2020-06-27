@@ -13,9 +13,21 @@ function Index() {
         <Typography variant="h4" component="h1" gutterBottom>
           Next.js with TypeScript example
         </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
+        <div>
+          <Link href="/about" color="secondary">
+            Go to the about page
+          </Link>
+        </div>
+        <div>
+          <Link href="/dashboard" color="secondary">
+            Go to the dashboard page
+          </Link>
+        </div>
+        <div>
+          <Link href="/sticky-footer" color="secondary">
+            Go to the sticky-footer page
+          </Link>
+        </div>
         <ProTip />
         <Copyright />
       </Box>
